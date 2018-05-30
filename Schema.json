@@ -1,5 +1,6 @@
 {
     "type": "array",
+    "title": "Books",
     "minItems": 3,
     "items": {
         "title": "Book",
