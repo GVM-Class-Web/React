@@ -25,7 +25,8 @@
             },
             "summary_buku": {
                 "type": "string",
-                "minLength": 250
+                "minLength": 2,
+                "maxLength": 3
             },
             "harga": {
                 "type": "integer"
