@@ -25,6 +25,7 @@
             },
             "summary_bukku": {
                 "type": "string",
+                "maxLength": 250
             },
             "harga": {
                 "type": "integer"
