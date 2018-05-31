@@ -9,19 +9,27 @@
         "properties": {
             "id": {
                 "description": "The unique identifier for a product",
-                "type": "integer"
+                "type": "integer",
+                "minLength": 0,
+                "maxLength": 3
             },
             "judul": {
-                "type": "string"
+                "type": "string",
+                "maxLength": 32
             },
             "penerbit": {
-                "type": "string"
+                "type": "string",
+                "maxLength": 32
+
             },
             "nama_pengarang": {
-                "type": "string"
+                "type": "string",
+                "maxLength": 32                
             },
             "tahun_terbit": {
-                "type": "integer"
+                "type": "integer",
+                "minLength": 0,                
+                "maxLength": 4
             },
             "summary_buku": {
                 "type": "string",
@@ -30,6 +38,8 @@
             },
             "harga": {
                 "type": "integer"
+                "minLength": 0,                
+                "maxLength": 10
             },
             "kategori": {
                 "type": "string"
