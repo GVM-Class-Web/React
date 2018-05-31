@@ -23,7 +23,7 @@
             "tahun_terbit": {
                 "type": "integer"
             },
-            "summary_bukku": {
+            "summary_buku": {
                 "type": "string",
                 "minLength": 250
             },
