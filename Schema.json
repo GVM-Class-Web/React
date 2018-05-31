@@ -37,9 +37,7 @@
                 "maxLength": 300
             },
             "harga": {
-                "type": "integer",
-                "minLength": 0,                
-                "maxLength": 10
+                "type": "integer"
             },
             "kategori": {
                 "type": "string"
